@@ -1,5 +1,5 @@
 """
-Django settings for moriahshermancom project.
+Django settings for bmm project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'wpg6yp=i$k)39jchoa!09$ema4-r9a%7%&a3@vuwft8$mt!_a8'
+SECRET_KEY = '^qt4hut8ato*28c$7!*9ac!qyxsl6_hfx$=q^z-5-e$at1)j=p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -48,22 +48,22 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'moriahshermancom.urls'
+ROOT_URLCONF = 'bmm.urls'
 
-WSGI_APPLICATION = 'moriahshermancom.wsgi.application'
+WSGI_APPLICATION = 'bmm.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
-# change login details to bmm private folder so as not to put on github
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'bmm',
         'USER': 'mo',
         'PASSWORD': 'muirwood',
-        'HOST': '127.0.0.1'
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 

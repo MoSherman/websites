@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Moriah Sherman</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Moriah Sherman</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                     <li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>                    
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/MoSherman" target="_blank">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/0BxFYxqhzHNHrbXFGQ1k5WFZqd0k/view?usp=sharing" target="_blank">CV</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Moriah Sherman</span>
+                        <hr class="star-light">
+                        <span class="name2">'Mo'</span>                      
+                        <span class="skills">Python Programmer &amp; Web Developer</span>
+                    </div>
+                </div>
+            </div>               
+            <div class="row">                
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="https://drive.google.com/file/d/0BxFYxqhzHNHrbXFGQ1k5WFZqd0k/view?usp=sharing" target="_blank" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download my CV (PDF)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                British Museum Map 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/portfolio/bmm_court.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                The Maze of The Assassins 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/portfolio/maze.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                VoxAnguis.com Technical Blog 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/portfolio/blog.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Skills Grid Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Skills</h2>
+                    <a href="https://drive.google.com/file/d/0BxFYxqhzHNHrbXFGQ1k5WFZqd0k/view?usp=sharing" target="_blank" target="_blank" class="btn btn-lg btn2-outline">
+                        <i class="fa fa-download"></i> Download my CV (PDF)
+                    </a>
+                    <hr class="star-primary">
+                </div>
+            </div>           
+            <div class="row">
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal1" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                Python 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/python.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal2" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                MySQL 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/mysql.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal3" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                Apache Server &amp; mod_python Web Framework
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/diy.png" class="img-responsive" alt="">
+                    </a>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal4" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                Git &amp; GitHub 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/git.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal5" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                Linux/Ubuntu 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/ubuntu.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal6" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                Bash &amp; Terminal 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/terminal.png" class="img-responsive" alt="">
+                    </a>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal7" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                Bootstrap 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/bootstrap.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal8" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                WordPress &amp; Written Expression 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/wordpress.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 skills-item">
+                    <a href="#skillsModal9" class="skills-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>
+                                HTML5 
+                                </p> 
+                            </div>
+                        </div>
+                        <img src="img/skills/html.png" class="img-responsive" alt="">
+                    </a>
+                </div>                
+            </div>
+        </div>
+    </section>    
+    
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I am a <strong>Python Developer</strong> with three years work experience as an Unexploded Ordnance (UXO) Consultant and GIS Operator. I am experienced with <strong>Python</strong>, <strong>MySQL</strong>, <strong>Git &amp; GitHub.com</strong>, <strong>Linux/Ubuntu OS &amp; the Terminal</strong>, <strong>Apache</strong>, <strong>Bootstrap</strong>, <strong>HTML5 &amp; CSS3</strong>. I am always interested in learning new languages and skills.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>My personal projects include creating several professional websites including <strong>MoriahSherman.com</strong> (my CV site) and <strong>VoxAnguis.com</strong> (my tech blog). My portfolio includes several open source projects most notably the <strong>British Museum Map</strong> (BMM) and <strong>The Maze of the Assassins</strong> (Assassins) Python based web applications.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="https://drive.google.com/file/d/0BxFYxqhzHNHrbXFGQ1k5WFZqd0k/view?usp=sharing" target="_blank" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download my CV (PDF)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Email</h3>
+                            <p>You can email me at
+                                <a href="mailto:moriahsherman@gmail.com?subject=MoriahSherman.com" title="mailto:moriahsherman@gmail.com?subject=MoriahSherman.com" rel="nofollow">MoriahSherman@gmail.com</a>
+                            </p>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <div class="col-lg-12 text-center">
+                            <h2 id="contact">Contact Me</h2>
+                            <hr class="star-light">
+                            </div>
+                            <h3>Around the Web</h3>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="https://github.com/MoSherman" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/moriahevsherman" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://uk.linkedin.com/in/moriah-sherman-a5974866" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                                 <li>
+                                    <a href="http://stackoverflow.com/users/5254762/mosherman" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://MoriahSherman.com" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>Blog</h3>
+                            <p>You can read my technical blog at <a href="http://VoxAnguis.com" target="_blank">VoxAnguis.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; Moriah Sherman 2016
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+  
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals Pop Overs -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>British Museum Map</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/bmm_shot.png" class="img-responsive img-centered" alt="">
+                            <p>The British Museum Map is a searchable mysql backed database designed to help users find rooms and objects within the museum. Based on a bootstrap front-end and a WSGI 'DIY' Python webframework the project is designed to be used seemlesly on either a desktop or mobile device. The <a href="http://www.britishmuseum.org/visiting/floor_plans.aspx" target="_blank">British Museum's</a> own availble map is not designed for simple searching like the BMM project. For users who wish to find specific rooms or objects within the museum in a simple search engine the BMM project is ideal.</p>
+                            <ul class="list-inline item-details">
+                                <li>Link:
+                                    <strong><a href="http://moriahsherman.com/bmm.py/search" target="_blank">BMM Homepage</a>
+                                    </strong>
+                                </li>
+                                <li>Code:
+                                    <strong><a href="https://github.com/MoSherman/bmm" target="_blank">GitHub Repo</a>
+                                    </strong>
+                                </li>
+                                <li>Blog Entry:
+                                    <strong><a href="http://voxanguis.com/" target="_blank">Forthcoming</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>The Maze of The Assassins</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/maze_shot.png" class="img-responsive img-centered" alt="">
+                            <p>This simple text based game can be played either in your terminal or your browser. The main purpose of this game was to teach myself a bit more about Python logic and decision making trees, particularly what part loops play in automating tasks. It was made in the same vein as game's like  <a href="http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork">Zork</a>. This project uses a Bootstrap template to be accesable to both desktop and mobile users. Future iterations of the project will hopefully include many more rooms, images of the scenes, a 'decision' tracker, and improved aesthetics. </p>
+                            <ul class="list-inline item-details">
+                                <li>Link:
+                                    <strong><a href="http://moriahsherman.com/wsgiassassins.py/start" target="_blank">Play the Game!</a>
+                                    </strong>
+                                </li>
+                                <li>Code:
+                                    <strong><a href="https://github.com/MoSherman/assassins" target="_blank">GitHub Repo</a>
+                                    </strong>
+                                </li>
+                                <li>Blog Entry:
+                                    <strong><a href="http://voxanguis.com/" target="_blank">Forthcoming</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>VoxAnguis.com Tech Blog</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/vox_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I currently write my technical blog Vox Anguis ('voice of the snake') to track my own progress and journey into developing. I decided not to re-invent the wheel with this project and used the ever popular <a href="http://wordpress.com">WordPress</a> blogging platform. The site is intended to be both helpful and humorous, to let people in on how <a href="http://voxanguis.com/useful-links/">I learned</a> and how they can too. I hope to make at least 4 posts a month, mainly covering novice topics and my own work on my personal projects like the <a href="http://moriahsherman.com/bmm.py/search">British Museum Map</a> and <a href="http://moriahsherman.com/wsgiassassins.py/start">The Maze of The Assassins</a> projects.</p>
+                            <ul class="list-inline item-details">
+                                <li>Link:
+                                    <strong><a href="http://voxanguis.com" target="_blank">VoxAnguis.com</a>
+                                    </strong>
+                                </li>
+                                <li>More:
+                                    <strong><a href="http://voxanguis.com/about" target="_blank">About Me</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Skills Modals Pop Overs -->
+    <div class="skills-modal modal fade" id="skillsModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Python Experience</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/python_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I have completed several small projects in Python. Including the <a href="https://moriahsherman.com/bmm/search" target="_blank">British Museum Map</a> and both the terminal and browser versions of my text game <a href="https://moriahsherman.com/wsgiassassins/start" target="_blank">The Maze of the Assassins</a>. I am always interested in learning new modules and approaches to keep up to date with advances and changes in the Python community. </p>
+                            <ul class="list-inline item-details">
+                                <li>Where I started:
+                                    <strong><a href="http://learnpythonthehardway.org/book/" target="_blank">Learn Python the Hard Way</a>
+                                    </strong>
+                                </li>
+                                <li>Example Python Code:
+                                    <strong><a href="https://github.com/MoSherman/bmm" target="_blank">GitHub Repo of BMM</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-modal modal fade" id="skillsModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>MySQL Experience</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/mysql_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I am competent using MySQL in both the terminal and through a UI such as MySQL Workbench. Using the MySQLdb module I have learned how to intergrate databases into Python applications. An example of which is my <a href="https://moriahsherman.com/bmm/search" target="_blank">British Museum Map</a> application. This application allows me to connect to a database which contains room names and general information that can be 'queried' by the user and returns the 'fetched' rooms. </p>
+                            <ul class="list-inline item-details">
+                                <li>MySQLdb:
+                                    <strong><a href="http://mysql-python.sourceforge.net/MySQLdb.html" target="_blank">User Guide</a>
+                                    </strong>
+                                </li>
+                                <li>MySQLdb/Python Integration Code Example:
+                                    <strong><a href="https://github.com/MoSherman/bmm" target="_blank">GitHub Repo of BMM</a>
+                                    </strong>
+                                </li>
+                            </ul>                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-modal modal fade" id="skillsModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Apache Server &amp; mod_python Web Framework</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/apache_shot.png" class="img-responsive img-centered" alt="">
+                            <p>In order to learn more about Python backed web applications, I elected to take a 'DIY' approach to building my websites. Using minimal web frameworks like 'mod_python' I built my applications to run on an Apache server. Both the <a href="https://moriahsherman.com/bmm/search" target="_blank">British Museum Map</a> and the text game <a href="https://moriahsherman.com/wsgiassassins/start" target="_blank">The Maze of the Assassins</a> use this minimal approach. I am very interested in learning more about 'higher level' web frameworks such as Django and Flask, and how their built in features can help me launch my applications faster and more efficiently. </p>
+                            <ul class="list-inline item-details">
+                                <li>mod_python:
+                                    <strong><a href="http://modpython.org/live/current/doc-html/contents.html" target="_blank">Documentation</a>
+                                    </strong>
+                                </li>
+                                <li>mod_python Web Framework Code Example:
+                                    <strong><a href="https://github.com/MoSherman/bmm" target="_blank">GitHub Repo of BMM</a>
+                                    </strong>
+                                </li>
+                            </ul>  
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-modal modal fade" id="skillsModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Git &amp; GitHub</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/git_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I am competent using the version control system Git in both the terminal and on the UI GitHub.com. All of my work is avaible for viewing on my <a href="https://github.com/MoSherman" target="_blank"> GitHub.com profile</a>, including the <a href="https://github.com/MoSherman/bmm.git" target="_blank">British Museum Map</a> and <a href="https://github.com/MoSherman/assassins.git" target="_blank">The Maze of the Assassins</a> Python applications.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-modal modal fade" id="skillsModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Linux/Ubuntu</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/linux_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I am comfortable working on the Linux based Ubuntu operating system. I have experience partitioning Windows based machines to run both Windows and Ubuntu on the same machine. I am comfortable developing on both Linux and Windows based operating systems.</p>
+                            <ul class="list-inline item-details">
+                                <li>Blog Entry on OS:
+                                    <strong><a href="http://voxanguis.com/2016/02/24/os-start/" target="_blank">24th Feb. 2016</a>
+                                    </strong>
+                                </li>
+                            </ul>  
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-modal modal fade" id="skillsModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Bash &amp; Terminal</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/terminal_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I am competent working within the Terminal and with basic Bash commands. </p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-modal modal fade" id="skillsModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Bootstrap</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/bootstrap_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I am competent with the Bootstrap front-end web framework, the image above is actually a screenshot of this modal's HTML code in Bootstrap. Both the <a href="https://moriahsherman.com/bmm/search" target="_blank">British Museum Map</a> and the text game <a href="https://moriahsherman.com/wsgiassassins/start" target="_blank">The Maze of the Assassins</a> have a Bootstrap front-end.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-modal modal fade" id="skillsModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>WordPress &amp; Written Expression</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/vox_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I have utilized the WordPress front-end web framework to build my technical blog <a href="https://voxanguis.com" target="_blank">Vox Anguis</a>. I am comfortable expressing my ideas and technical concepts in both writen form and in public speaking situations.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-modal modal fade" id="skillsModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>HTML5 &amp; CSS3</h2>
+                            <hr class="star-primary">
+                            <img src="img/skills/html_shot.png" class="img-responsive img-centered" alt="">
+                            <p>I am competent in both HTML5 and CSS3. I have utilized the basics of both in my web applications projects (including this site). I look forawrd to learning more about web design, particularly how to make more aesthetically pleasing applications with CSS3.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+</html>
